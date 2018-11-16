@@ -1,6 +1,6 @@
 # getpermission
 Usage:
-
+<code>
 RxPermissions.getInstance(this).request(
                 Manifest.permission.WRITE_EXTERNAL_STORAGE,
                 Manifest.permission.READ_EXTERNAL_STORAGE,
@@ -20,6 +20,7 @@ RxPermissions.getInstance(this).request(
                         }
                     }
                 });
+</code>
 	
 
 解决Android 6.0+ 动态权限获取问题
